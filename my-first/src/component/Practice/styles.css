@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+
+.form-title {
+    background-color: #72169D;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.input-group label {
+    font-weight: bold;
+    margin-bottom: 3px;
+    
+}
+
+.input-group input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    transition: background 0.3s ease;
+}
+
+/* Green "Add" Button */
+button[type="submit"] {
+    background: green;
+}
+
+/* Red "Clear" Button */
+button[type="button"] {
+    background: red;
+}
+
+/* Disabled Button - Turns Gray */
+button:disabled {
+    background: gray;
+    cursor: not-allowed;
+}
+
+/* Adjustments for "Clear All" Button */
+.clear-all-btn {
+    
+    background: red;
+}
+
+
+.recent-title {
+    background: #72169D;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.log-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.log-table th, .log-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.log-table th {
+    background: #72169D;
+    color: white;
+}
+
+.clear-all-btn {
+    
+    margin-top: 10px;
+    background: red;
+}
+
+.no-entries {
+    text-align: center;
+    color: gray;
+}
+
+.form-title {
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center; /* Keep text vertically centered */
+    background-color: #72169D;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
